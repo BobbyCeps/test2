@@ -2,24 +2,27 @@ body{
   background-image: url('background.jpg');
 }
 #banner {
-background-color: yellow;
 height: 200px;
 width: auto;
+background-image: url('banner.png');
+background-repeat: no-repeat;
+background-position: left;
+margin-left: 275px;
 overflow: hidden;
 }
 #content{
   height: 700px;
   width: 800px;
-  background-color: white;
+  background-color: ;
   margin-left: 250px;
-  border-radius: 0px 20px 20px 0px;
- -moz-border-radius: 0px 20px 20px 0px;
- -webkit-border-radius: 0px 20px 20px 0px;
- border: 0px solid #000000;
+  border-radius: 7px 20px 20px 7px;
+ -moz-border-radius: 20px 20px 20px 0px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ border: 1px solid rgba(0, 0, 0, 0.2);
  padding: 15px;
  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
 }
 #sidebar {
   height: auto;
@@ -57,4 +60,20 @@ text-decoration: none;}
   height: 30px;
   padding: 5px;
   background-color: pink;
+  clear:both;
+}
+.article {
+  height: 250px;
+  width: 180px;
+  float: left;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+.photo {
+  height: 200px;
+  width: 180px;
+  background-color: pink;
+  overflow: hidden;
 }
